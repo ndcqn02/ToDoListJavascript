@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>TO DO LIST</h1>
+        <div class="add-task">
+            <input type="text" placeholder="Add new task"  class="task-input">
+        </div>
+        <ul class="task-list">
+            <li class="task-list-item">
+                <label>
+                    <input type="checkbox" name="" autocomplete="off"  class="input-checkbox-task" id="0" onclick="app.methods.doneTask('0')">
+                    <span class="task-name">Task name</span>
+                </label>
+                <span class="delete-btn" onclick="" title="Delete Task"></span>
+
+            </li>   
+
+            <li class="task-list-item">
+                <label>
+                    <input type="checkbox" name="" autocomplete="off" class="input-checkbox-task">
+                    <span class="task-name">Task name</span>
+                </label>
+            </li> 
+        </ul>
+    </div>
+
+
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
